@@ -1,0 +1,77 @@
+****************************************************
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+LINUX
+****************************************************
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+To compile class using JOCL in directory
+***************************************
+use included GPU bash script
+
+do similar to following
+
+sh compileGPU GPUBackend/TestOpenCLHandler.java
+
+
+To run class in directory
+***************************************
+use basic java directory delimiter
+ie
+instead of JISim/JISimCommandLine
+
+do 
+
+JISim.JISimCommandLine
+
+such that running class not using JOCL is done  by 
+
+java JISim.JISimCommandLine
+
+
+FOR GPU AND OPENCL USING JOCL USE THE FOLLOWING
+************************************************
+use basic java directory delimiter and pass it to the included bash scripts for Linux
+
+ie run the following to test class handler
+sh javaJOCL.sh GPUBackend.TestOpenCLHandler
+
+
+****************************************************
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+WINDOWS
+****************************************************
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+To compile class using JOCL in directory
+***************************************
+use included GPU bat script
+
+do similar to following
+
+compileGPU.bat GPUBackend/TestOpenCLHandler.java
+
+
+To run class in directory
+***************************************
+use basic java directory delimiter
+ie
+instead of JISim/JISimCommandLine
+
+do 
+
+JISim.JISimCommandLine
+
+such that running class not using JOCL is done  by 
+
+java JISim.JISimCommandLine
+
+FOR GPU AND OPENCL USING JOCL USE THE FOLLOWING
+************************************************
+use basic java directory delimiter and pass it to the included bat scripts for Windows
+
+ie run the following to test class handler
+javaJOCL.bat GPUBackend.TestOpenCLHandler
+
+
+
+
